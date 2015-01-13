@@ -1,0 +1,73 @@
+html, body {
+	height: 100%;
+	overflow: hidden;
+	font-family: 'Libre Baskerville', serif;
+	background-color: #D8C3A4;
+}
+
+a{
+	    color: #000000;
+}
+
+#canvas {
+	display: block;
+	position: absolute;
+}
+
+
+
+.container {
+	max-width: 800px;
+	width: auto;
+}
+
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	/*padding-top: 70px;*/
+	padding-bottom: 150px;
+}
+
+
+.bold-title-text {
+	font-size: 18pt;
+	font-weight: 900;
+}
+
+.smaller-title-text {
+	font-size: 16pt;
+	font-weight: 400;
+}
+
+
+.description {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 9pt;
+}
+
+
+.code-text {
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 11pt;
+}
+
+
+.footer {
+	position: relative;
+	/*padding-top: 20px;*/
+	margin-top: -120px;
+	height: 100%;
+	clear: both;
+	color: #FFFFFF;
+}
+
+.footer-icon {
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
