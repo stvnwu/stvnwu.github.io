@@ -52,8 +52,20 @@ a{
 
 
 .code-text {
+	margin-top: 10%;
 	font-family: 'Source Code Pro', sans-serif;
 	font-size: 11pt;
+}
+
+.nav-link {
+	background-color: #B37F69;
+	border-color: #BCB8B5;
+
+}
+
+.nav-link:hover {
+	background-color: #B59B8A;
+	border-color: #BCB8B5;
 }
 
 
@@ -70,4 +82,10 @@ a{
 	width: 35px;
 	height: 35px;
 	margin-right: 10px;
+}
+
+.footer-icon:hover {
+	margin-top: -15px;
+	webkit-transition: all .2s linear; -o-transition: all .2s linear; 
+	-moz-transition: all .2s linear; transition: all .2s linear;
 }
