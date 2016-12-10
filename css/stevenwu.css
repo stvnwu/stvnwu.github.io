@@ -52,7 +52,6 @@ a{
 
 
 .code-text {
-	margin-top: 10%;
 	font-family: 'Source Code Pro', sans-serif;
 	font-size: 11pt;
 }
@@ -88,4 +87,12 @@ a{
 	margin-top: -15px;
 	webkit-transition: all .2s linear; -o-transition: all .2s linear; 
 	-moz-transition: all .2s linear; transition: all .2s linear;
+}
+
+p.indent_once {
+	margin-left: 4em;
+}
+
+p.code_block {
+	margin-top: 25px;
 }
