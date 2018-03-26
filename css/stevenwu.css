@@ -33,12 +33,12 @@ a:hover {
 }
 
 .bold-title-text {
-	font-size: 42pt;
+	font-size: 18pt;
 	font-weight: 900;
 }
 
 .smaller-title-text {
-	font-size: 36pt;
+	font-size: 16pt;
 	font-weight: 400;
 }
 
@@ -48,12 +48,13 @@ a:hover {
 }
 
 .description p {
-	font-size: 14px;
+	font-size: 10pt;
 }
 
 .code-text {
+	margin-top: -10px;
 	font-family: 'Source Code Pro', sans-serif;
-	font-size: 11pt;
+	font-size: 10pt;
 }
 
 .nav-link {
